@@ -6,3 +6,66 @@
 
 [hidden]{display:none!important}
 @media(max-width:700px){.hero-copy>p{max-width:280px;width:calc(100% - 40px)}}
+
+/* Accenti tipografici della palette confermata. */
+:where(.intro,.finish-copy,.inspiration,.craft) h2 em,
+.handwritten,.small-editorial p em,.craft-star,
+.hero .eyebrow,:where(.intro,.finish-copy,.inspiration,.craft) .section-label,
+.text-link,.craft .light-link{color:var(--wine)}
+.text-link,.craft .light-link{border-bottom-color:var(--wine)}
+:focus-visible{outline-color:var(--wine)}
+
+/* Versione desktop più raccolta: proporzioni e spazi ridotti con misura. */
+@media(min-width:701px){
+ .site-header{height:92px}
+ .brand strong{font-size:36px}
+ .hero{min-height:665px;padding-bottom:54px}
+ .hero-copy{padding-top:52px}
+ h1{font-size:clamp(78px,7.8vw,138px);margin:36px 0 24px}
+ .hero-copy>.text-link{margin-top:27px}
+ .hero-swatches{margin-top:40px}
+ .hero-visual{height:566px}
+ .section-pad{padding-top:86px;padding-bottom:86px}
+ .intro{padding-top:96px;padding-bottom:100px}
+ .intro h2{font-size:clamp(42px,4.2vw,70px)}
+ .intro-bottom{margin-top:38px}
+ .finishes{min-height:590px}
+ .finish-wall{min-height:590px}
+ .finish-copy{padding-top:56px;padding-bottom:50px}
+ .finish-copy h2{font-size:clamp(38px,3.3vw,55px);margin-top:34px}
+ .tone-picker{margin-top:28px;margin-bottom:27px}
+ .work-heading{margin-bottom:44px}
+ .work-heading h2{font-size:clamp(51px,5.1vw,80px)}
+ .work-img{height:500px}
+ .work-side{padding-top:78px}
+ .palette-art{height:300px}
+ .demo-note{margin-top:40px}
+ .craft{padding-top:68px;padding-bottom:90px}
+ .craft-top{padding-bottom:48px}
+ .craft-top h2{font-size:clamp(64px,7.1vw,112px);margin-top:32px}
+ .craft-star{font-size:128px;top:52px}
+ .craft-photo{height:500px}
+ .craft-intro{font-size:33px;margin-bottom:27px}
+ .craft-details summary{padding-top:21px;padding-bottom:21px}
+ .contact{padding-top:72px;padding-bottom:72px}
+ .contact h2{font-size:clamp(72px,9.2vw,144px);margin-top:44px;margin-bottom:36px}
+ footer{padding-top:34px;padding-bottom:34px}
+}
+@media(min-width:701px) and (max-width:1050px){
+ .hero{min-height:610px}
+ h1{font-size:8.2vw}
+ .hero-visual{height:510px}
+ .work-img{height:400px}
+ .palette-art{height:255px}
+ .craft-photo{height:450px}
+ .craft-intro{font-size:28px}
+ .craft-star{font-size:105px}
+}
+@media(min-width:1600px){
+ .hero{min-height:800px}
+ .hero-visual{height:700px}
+ .hero-copy{padding-top:76px}
+ .hero-copy>p{font-size:15px}
+ .hero-swatches{margin-top:52px}
+ .work-img{height:620px}
+}

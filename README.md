@@ -20,5 +20,5 @@ Aprire http://localhost:8000.
 
 Nome, immagini illustrative e contatto dimostrativo della bozza. Nessun messaggio viene inviato dal modulo.
 
-I file del sito corrispondono alla versione Sites approvata, commit `832c10f9a63f346cd1ac72f1c1abf7bf833ff2ca`.
+I file del sito corrispondono alla versione Sites approvata, commit `d6bdab3072f1ae24da3e03a9f7ac6f12eaf44d25`.
 Non occorrono npm install o npm run build. I percorsi relativi supportano GitHub Pages nei repository di progetto.
